@@ -1,0 +1,29 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: Iv1.1eac90f517df252c
+            client-secret: d66bbca351133e79a4f676c890fc99ff0c1db75f
+  data:
+    cassandra:
+      keyspace-name: main
+      username: bSRDuBMuvSNmUEZZfBlaZQhc
+      password: .rM2f8-rQPOH2g2_ZTY1NusTrdWJ5i-ZyQ4rX1u6LF0YKDDi+g0vLd5gkNITHe1LUvH_u4i+jZDuFwC3r3wDHIFbaAMxwpkHLsNZD9x-S+7XwXjnREcs8BeZ7,-WQ1+j
+      schema-action: create_if_not_exists
+      request:
+        timeout: 10s
+      connection:
+        connect-timeout: 10s
+        init-query-timeout: 10s
+
+
+datastax:
+  astra:
+    secure-connect-bundle: secure-connect-okreads.zip
+    db:
+      id: 2c4b1a8c-270b-46ab-8df8-3a71220b5678-1
+      region: southamerica-east1
+      keyspace: main
+      application.token: AstraCS:bSRDuBMuvSNmUEZZfBlaZQhc:91f87a42a64a32c4bd4577672b14034c77aba2770aca7f699b1602d9af885288
