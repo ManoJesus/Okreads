@@ -11,7 +11,7 @@ import org.springframework.web.reactive.function.client.WebClient;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static com.github.manojesus.okreadsbooktracker.constants.Constats.IMG_SOURCE_ROOT;
+import static com.github.manojesus.okreadsbooktracker.constants.Constants.IMG_SOURCE_ROOT;
 
 
 @Controller
